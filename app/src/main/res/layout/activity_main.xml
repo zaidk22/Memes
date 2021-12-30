@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
 
             android:layout_gravity="center"
-            android:contentDescription="TODO"
+            android:contentDescription="@string/todo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -33,14 +33,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="share"
-            android:text="share" />
+            android:text="@string/shareit" />
 
         <Button
             android:id="@+id/next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="next"
-            android:text="next" />
+            android:text="@string/next" />
 
     </LinearLayout>
 
